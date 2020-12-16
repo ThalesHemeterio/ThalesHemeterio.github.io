@@ -1,0 +1,402 @@
+	/* INDEX (HEADER, NAV AND FOOTER) */		
+		#top{
+			
+			text-align: center-left;
+			font-family: "Allura", sans-serif;
+			font-size: 30pt;
+			padding: 0px;
+			margin-top: 0px;
+			
+			}
+			
+		/*#menu{
+			margin: 6px 0;
+			background-color: black;
+			width: 35px;
+			height: 5px
+			
+			}*/
+			
+		#nav{
+			display: block;
+			color: black;
+			width: 100%;
+			text-align: left;
+			cursor: pointer;
+			transition: 0.3s;
+			}
+
+		#nav ul {
+			list-style-type: none;
+			text-transform: uppercase;
+			padding: 0;
+			position: absolute;
+			top: 130px;
+			left: 120px;
+			
+			}
+						
+		#nav li {
+			
+			display: inline-table;
+			background-color: #dddddd;
+			padding: 10px;
+			margin: 2px;
+			transition: background-color 2s;
+					
+			}
+
+		#nav li:hover{
+				background-color: #606060;
+			
+		}
+			
+		#nav ul a {
+			font-size: 12pt;
+			font-style: bold;
+			color: black;
+			text-decoration: none;
+					
+			}
+			
+		p{
+			font-family: "Allura", sans-serif;
+			font-size: 20pt;
+			padding: 0px 10px;
+			}
+			
+			
+		#footer{
+			background-color: white;
+			text-align: center;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			font-family: "Allura", sans-serif;
+			}
+
+	
+	/* CONTACT */	
+
+		.bg-img {
+		  /* The image used */
+		  background-image: url("image1.jpeg");
+		  min-height: 800px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;
+		}
+
+		/* Add styles to the form container */
+		.container {
+		  position: absolute;
+		  left: 0;
+		  margin: 5 px;
+		  max-width: 600px;
+		  padding: 25px;
+		  font-family: "Allura", sans-serif;
+		  font-size:25px;
+		}
+
+		/* Full-width input fields */
+		  input, select {  
+		  width: 100%;
+		  padding: 10px;
+		  margin: 1px 0 10px 0;
+		  border: none;
+		  background: #f1f1f1;
+		}
+
+		/* Set a style for the submit button */
+		#submit {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 16px 35px;
+		  border: none;
+		  cursor: pointer;
+		  width: 103.5%;
+		  opacity: 0.9;
+		}
+
+		#submit:hover {
+		  opacity: 1;
+		}
+
+	/*GALLERY*/
+
+		h3{
+			text-align: center;
+			font-family: "Allura", sans-serif;
+			font-size: 25pt;
+			padding: 0;
+			border-bottom: 1px solid black; 
+			
+		}
+
+		h4{
+			text-align: center;
+		}
+		#content{
+			width: 1000px;
+			margin: auto;
+			padding: 10px;
+			overflow: hidden;
+			list-style: none;
+			background-color: white;
+
+		}
+		#content li{
+			float: left;
+			width: 200px;
+			height: 200px;
+			margin: 15px;
+			border: 5px solid #dddddd;
+			list-style: none;
+			box-shadow: 1px 1px 3px rgba (0, 0, 0, .4);
+			-webkit-transform: all 1s ease-in;
+			
+		}
+
+		#content li#ph01 {
+			background: url("couple1.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 220px 220px;
+			background-color: white;
+			
+		}
+			
+		#content li#ph02 {
+			background: url("couple2.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 200px 200px;
+			background-color: white;
+		}
+			
+		#content li#ph03 {
+			background: url("couple3.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 200px 200px;
+			background-color: white;
+		}
+			
+		#content li#ph04 {
+			background: url("couple4.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 250px 250px;
+			background-color: white;
+		}
+
+		#content li#ph05 {
+			background: url("maternity1.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 200px 200px;
+			background-color: white;
+		}
+
+
+		#content li#ph06 {
+			background: url("maternity2.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 300px 300px;
+			background-color: white;
+		}
+
+		#content li#ph07 {
+			background: url("maternity3.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 300px 300px;
+			background-color: white;
+		}
+
+
+		#content li#ph08 {
+			background: url("maternity4.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 200px 200px;
+			background-color: white;
+		}
+
+
+		#content li#ph09 {
+			background: url("baby2.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 300px 300px;
+			background-color: white;
+		}
+
+		#content li#ph10 {
+			background: url("baby3.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 300px 300px;
+			background-color: white;
+		}
+
+		#content li#ph11 {
+			background: url("baby4.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 300px 300px;
+			background-color: white;
+		}
+
+		#content li#ph12 {
+			background: url("baby5.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 300px 300px;
+			background-color: white;
+		}
+
+		#content li#ph13 {
+			background: url("birth1.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 250px 250px;
+			background-color: white;
+		}
+
+		#content li#ph14 {
+			background: url("birth2.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 250px 250px;
+			background-color: white;
+		}
+
+		#content li#ph15 {
+			background: url("birth3.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 200px 200px;
+			background-color: white;
+		}
+
+		#content li#ph16 {
+			background: url("birth4.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: 200px 200px;
+			background-color: white;
+		}
+
+		#content li:hover ph01{
+			background-position: 0px 0px;
+			background-position: 200px 200px;
+			
+		}
+
+
+		#content li:hover{
+			-webkit-transform: scale(1.5);
+			
+				
+		}
+
+		.grid{
+			display: grid;
+			grid-template-columns: repeat(3, 200px);
+			justify-content: center;
+			align-content: center;
+			grid-gap: 10px;
+			height: 1300px;
+		}
+
+		.grid img{
+			width: 200px;
+			height: 200px;
+		}
+		
+		
+		/* About US*/
+		#name
+		{	
+		padding:0px;
+		color:black;
+		text-shadow: black 0.1em 0.3em 0.5em;
+		clear:left;
+		text-align:center-left;
+		margin: 1px;
+		font-family:"Allura", sans-serif;
+		font-size:40px;
+		margin:2px;
+
+		}
+		#nav2
+		{
+		display: block;
+		color: black;
+		width: 100%;
+		text-align: left;
+		cursor: pointer;
+		transition: 0.3s;
+
+		}
+
+		#nav2 li
+		{
+		display: inline-table;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 2s;
+		}
+
+
+		#nav2 li:hover{
+		background-color: #606060;
+			
+		}
+
+		#nav2 ul
+		{
+		list-style-type: none;
+		text-transform: uppercase;
+		padding: 0;
+		position: absolute;
+		top: 130px;
+		left: 120px;
+		}
+
+		#nav2 ul a
+		{
+		font-size: 12pt;
+		font-style: bold;
+		color: black;
+		text-decoration: none;
+				
+		}
+
+		p 
+		{	
+		font-family:"Allura", sans-serif;
+		font-size:27px;
+		float:center;
+		width: 900px;
+		height: 10px;
+		text-align: justify;
+		padding-bottom:0.1em;
+
+		}
+
+		#debora
+		{
+		background-image: url ("deboraImage.jpg");
+		position:relative;
+		left:950px;
+		width: 100%;
+		height: 100%;
+		padding-bottom:2em;
+
+		}
+
+		#footer2 
+		{
+		border: 1px solid grey;
+		padding:1em;
+		color:black;
+		background-color:grey;
+		clear:left;
+		text-align:center;
+		font-size:15px;
+		width: 100%;
+		}
+
+
+
+

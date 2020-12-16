@@ -1,0 +1,213 @@
+#top{
+	
+	text-align: center-left;
+	font-family: "Allura", sans-serif;
+	font-size: 30pt;
+	padding: 0px;
+	margin-top: 0px;
+	
+	
+	}
+	
+#content{
+	width: 1000px;
+	margin: auto;
+	padding: 80px;
+	overflow: hidden;
+	list-style: none;
+	background-color: white;
+
+}
+
+p{
+	text-align: left;
+	font-family: "Allura", sans-serif;
+	font-size: 18pt;
+	position: left;
+	padding: 10px;
+	border-bottom: 1px solid black; 
+	
+}
+
+
+
+
+h3{
+	text-align: center;
+	font-family: "Allura", sans-serif;
+	font-size: 25pt;
+	padding: 0;
+	border-bottom: 1px solid black; 
+	
+}
+
+h4{
+	text-align: center;
+}
+
+#content li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	border: 5px solid #dddddd;
+	list-style: none;
+	box-shadow: 1px 1px 3px rgba (0, 0, 0, .4);
+	-webkit-transform: all 1s ease-in;
+	
+}
+
+#content li#ph01 {
+	background: url("couple1.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 220px 220px;
+	background-color: white;
+	
+}
+	
+#content li#ph02 {
+	background: url("couple2.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	background-color: white;
+}
+	
+#content li#ph03 {
+	background: url("couple3.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	background-color: white;
+}
+	
+#content li#ph04 {
+	background: url("couple4.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: white;
+}
+
+#content li#ph05 {
+	background: url("maternity1.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	background-color: white;
+}
+
+
+#content li#ph06 {
+	background: url("maternity2.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: white;
+}
+
+#content li#ph07 {
+	background: url("maternity3.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: white;
+}
+
+
+#content li#ph08 {
+	background: url("maternity4.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	background-color: white;
+}
+
+
+#content li#ph09 {
+	background: url("baby2.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: white;
+}
+
+#content li#ph10 {
+	background: url("baby3.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: white;
+}
+
+#content li#ph11 {
+	background: url("baby4.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: white;
+}
+
+#content li#ph12 {
+	background: url("baby5.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 300px;
+	background-color: white;
+}
+
+#content li#ph13 {
+	background: url("birth1.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: white;
+}
+
+#content li#ph14 {
+	background: url("birth2.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: white;
+}
+
+#content li#ph15 {
+	background: url("birth3.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	background-color: white;
+}
+
+#content li#ph16 {
+	background: url("birth4.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 200px 200px;
+	background-color: white;
+}
+
+#content li:hover ph01{
+	background-position: 0px 0px;
+	background-position: 200px 200px;
+	
+}
+
+
+#content li:hover{
+	-webkit-transform: scale(1.5);
+	
+		
+}
+	
+	#footer{
+	border: 1px solid grey;
+	background-color: grey;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	
+
+	}
+	
+.grid{
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	height: 1300px;
+}
+
+.grid img{
+	width: 200px;
+	height: 200px;
+}
