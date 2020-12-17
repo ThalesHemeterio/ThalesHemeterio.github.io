@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Debora Mendes Contact</title>
+		<link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtthj1iIPyUzmzvF7e5jiu4-ZbNn2AUEX8Q&usqp=CAU">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="formjsthales.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allura">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+			<div id="wrap">
+				<div id="top">
+						<h1>Debora Mendes Photography</h1>
+				</div>
+				<div id="nav">
+					<ul> 
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about us.html">About me</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div id="main"  class="bg-img">
+					  <form action="index duda.html" onsubmit="myFunction()" class="container" >
+						<h1>Contact Us</h1>
+
+						<label for="name"><b>Name</b></label>
+						<input type="text" placeholder="Enter Name" required >
+
+						<label for="email"><b>Email</b></label>
+						<input type="email" placeholder="Enter Email" required >
+						
+						<label for="phone"><b>Phone</b></label>
+						<input id="​phoneNumber" type="tel" placeholder="999 999 9999" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required>
+						
+						<label for="event"><b>Type of Event</b></label>
+						<select id = "event" class= "required">
+							<option value ="" > Select Type </option>
+							<option  value = "NewBorn"> New Born </option>
+							<option  value = "Family"> Family </option>
+							<option  value = "Wedding"> Wedding </option>
+							<option  value = "Other" > Other </option>
+						</select>
+						
+						<label for="date"><b>Date of the Event</b></label>
+						<input id="date" type="date" min="2020-12-01" required >
+						
+						<label for="more"><b>More info</b></label>
+						<input type="text" placeholder="Enter more info about your event" required >
+
+						<input id="submit" type="submit" value="Submit">
+					</form>
+				</div>
+				<div id = "footer"> Copyright &copy; Debora Mendes </div>	
+			</div>
+		<script src="formjs.js"></script>
+	</body>
+
+</html>
