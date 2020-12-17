@@ -1,6 +1,5 @@
 #top{
 	
-	text-align: center-left;
 	font-family: "Allura", sans-serif;
 	font-size: 30pt;
 	padding: 0px;
@@ -44,7 +43,6 @@
 			
 		#nav ul a {
 			font-size: 12pt;
-			font-style: bold;
 			color: black;
 			text-decoration: none;
 					
@@ -80,7 +78,6 @@ p{
 	text-align: left;
 	font-family: "Allura", sans-serif;
 	font-size: 18pt;
-	position: left;
 	padding: 10px;
 	border-bottom: 1px solid black; 
 	
@@ -93,8 +90,8 @@ h3{
 	text-align: center;
 	font-family: "Allura", sans-serif;
 	font-size: 25pt;
-	padding: 0,0,0,0;
-	margin:0,0,0,0;
+	padding: 0 0 0 0;
+	margin:0 0 0 0;
 	border-bottom: 1px solid black; 
 	
 }
@@ -110,7 +107,7 @@ h4{
 	margin: 15px;
 	border: 5px solid #dddddd;
 	list-style: none;
-	box-shadow: 1px 1px 3px rgba (0, 0, 0, .4);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
 	-webkit-transform: all 1s ease-in;
 	
 }
